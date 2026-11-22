@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy for Standwell</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0; background: #F6F3EC; color: #12211D;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  .mark { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 34px; }
+  .mark span { font-size: 20px; font-weight: 600; letter-spacing: -0.2px; }
+  .badge {
+    width: 38px; height: 38px; border-radius: 11px; background: #0E7C66;
+    display: grid; place-items: center; color: #fff; font-weight: 700;
+  }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: 38px; line-height: 1.15; margin: 0 0 8px; font-weight: 500; }
+  .effective { color: #6D7C76; font-size: 14px; margin-bottom: 26px; }
+  h2 { font-size: 20px; margin: 34px 0 10px; }
+  p, li { color: #2C3B36; }
+  a { color: #0E7C66; }
+  .lead { font-size: 18px; color: #12211D; }
+  .card { background: #fff; border: 1px solid #E4DED2; border-radius: 18px; padding: 20px 24px; margin: 24px 0; }
+  .card h3 { margin: 0 0 8px; font-size: 17px; }
+  ul { padding-left: 20px; }
+  code { background: #EAF3F0; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+  footer { margin-top: 48px; border-top: 1px solid #E4DED2; padding-top: 18px; color: #6D7C76; font-size: 13px; }
+  .lang { float: right; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="lang"><a href="privacy_policy_zh.html">中文</a></div>
+  <div class="mark"><div class="badge">S</div><span>Standwell</span></div>
+  <h1>Privacy Policy for Standwell</h1>
+  <div class="effective">Last updated: November 22, 2026</div>
+
+  <p class="lead">Standwell is a desk posture app. The short version: the app has no account, no server and no advertising, and the camera frames used for the posture check never leave your phone. This page explains the details.</p>
+
+  <div class="card">
+    <h3>At a glance</h3>
+    <ul>
+      <li>We do not collect, receive or sell personal data.</li>
+      <li>Posture checks run on your device. Frames are analysed in memory and discarded.</li>
+      <li>Your checks, resets and settings are stored only in the app's private storage.</li>
+      <li>There are no ad SDKs and no analytics SDKs in the app.</li>
+      <li>Subscriptions are sold and processed by Google Play. We never see your card details.</li>
+    </ul>
+  </div>
+
+  <h2>Interpretation and Definitions</h2>
+  <p><strong>Application</strong> refers to Standwell, the Android application provided by Vela Foundry.</p>
+  <p><strong>Company</strong> (referred to as "We", "Us" or "Our") refers to the developer of Standwell, Vela Foundry.</p>
+  <p><strong>Device</strong> means the Android phone or tablet on which the Application runs.</p>
+  <p><strong>Service</strong> refers to the Application and its on-device features.</p>
+  <p><strong>You</strong> means the individual using the Service.</p>
+
+  <h2>Camera and Posture Analysis</h2>
+  <p>The posture check uses your front camera. Frames are processed in memory by an on-device pose model that locates body landmarks such as the ears, shoulders and hips. The app converts those points into angles and scores.</p>
+  <p>Camera frames are never written to storage, never uploaded and never shared. Only the resulting numbers (the score and its five sub-scores) are saved, together with a timestamp.</p>
+  <p>You can use the app without the camera by choosing the manual check, which asks five questions and produces a self-reported score.</p>
+
+  <h2>Data Stored on Your Device</h2>
+  <p>The Application stores the following information in its private app directory:</p>
+  <ul>
+    <li>Onboarding answers: desk hours, desk type and focus areas</li>
+    <li>Assessment results: the score, five sub-scores and a timestamp</li>
+    <li>Training history: routine identifier, duration and timestamp</li>
+    <li>Settings: reminder cadence, work hours, sound and haptics</li>
+    <li>Subscription state: whether Pro is active, as reported by Google Play</li>
+  </ul>
+  <p>Android prevents other apps from reading this directory. The data is removed when you use <strong>Settings → Data → Delete all data</strong>, clear the app's storage in Android settings, or uninstall the Application.</p>
+  <p>Android cloud backup is disabled for this app (<code>android:allowBackup="false"</code>), so this data is not copied to Google Drive.</p>
+
+  <h2>Purchases and Subscriptions</h2>
+  <p>Standwell Pro is sold as a subscription through Google Play. Google processes the payment and handles renewals, cancellations, refunds and payment methods. We do not receive or store your name, card number, billing address or any other payment detail.</p>
+  <p>The Application asks Google Play whether an active subscription exists and stores only a local yes/no flag plus the product identifier, so the app can unlock Pro features and keep working offline. This status is re-checked with Google Play when the app starts.</p>
+  <p>You can view, change or cancel a subscription in Google Play under <strong>Payments &amp; subscriptions</strong>. The Application also links to that screen from its settings.</p>
+  <p>Google's handling of purchase information is described in the Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+
+  <h2>No Advertising, No Analytics</h2>
+  <p>The Application contains no advertising SDK and displays no ads. It contains no third-party analytics, crash-reporting or attribution SDK, and it does not use an advertising identifier.</p>
+  <p>We do not build profiles, track behaviour across apps, or sell data. There is no account and no sign-in.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Camera</strong> — used only for the posture check, processed on-device.</li>
+    <li><strong>Notifications</strong> — used only for the optional posture reminders you enable.</li>
+    <li><strong>Vibrate</strong> — used for the optional haptic cue during a reset.</li>
+    <li><strong>Run at startup</strong> — used only to restore your local reminder schedule after the device restarts.</li>
+    <li><strong>Google Play billing</strong> — used only to read and purchase the Pro subscription.</li>
+  </ul>
+  <p>Reminders are scheduled locally by Android WorkManager. No push service is involved and no reminder content leaves the device.</p>
+
+  <h2>Third-Party Services</h2>
+  <p><strong>Google Play Billing.</strong> Used to sell the Pro subscription. Google processes payment and subscription data under its own privacy policy.</p>
+  <p><strong>Google ML Kit (pose detection).</strong> The pose model runs on the device and does not send camera frames to Google. Google states that ML Kit may collect anonymous usage and diagnostic metrics, such as device model, operating system version, app version and API usage, to operate and improve the SDK. See <a href="https://developers.google.com/ml-kit/terms">https://developers.google.com/ml-kit/terms</a> and <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+  <p>No other third-party service receives data from the Application.</p>
+
+  <h2>Data Sharing</h2>
+  <p>We do not sell, rent or share your data. We never receive your posture records, camera frames or settings. The only third parties involved are Google Play (for purchases) and Google ML Kit (on-device processing and anonymous SDK diagnostics), as described above.</p>
+
+  <h2>Data Retention</h2>
+  <p>We do not operate a server and therefore retain no user data. Information on your Device remains until you delete it in the Application, clear the app's storage, or uninstall the Application.</p>
+
+  <h2>Your Choices and Rights</h2>
+  <ul>
+    <li><strong>Access and export</strong> — Settings → Data → Export writes your records to a JSON file that you choose where to send.</li>
+    <li><strong>Delete</strong> — Settings → Data → Delete all data removes every record and returns the app to onboarding.</li>
+    <li><strong>Camera</strong> — you can deny or revoke camera access in Android settings and still use the manual check.</li>
+    <li><strong>Notifications</strong> — reminders can be turned off in the app or in Android's notification settings.</li>
+    <li><strong>Subscription</strong> — manage or cancel in Google Play → Payments &amp; subscriptions.</li>
+  </ul>
+  <p>Because we hold no personal data on a server, there is no separate request process for access, correction or erasure; the controls above act directly on your Device.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>The Application is intended for adults and is not directed at children under 13. We do not knowingly collect personal information from children, and the app has no account or user-generated content.</p>
+
+  <h2>Security</h2>
+  <p>Records are kept in Android's app-private storage, protected by the operating system's sandbox. Camera frames are processed in memory and discarded. No data is transmitted to Us because We operate no backend.</p>
+
+  <h2>International Users</h2>
+  <p>The Application can be used without transferring personal data across borders, because the processing happens on your Device. Purchase processing is handled by Google Play under its own terms and safeguards.</p>
+
+  <h2>Medical Disclaimer</h2>
+  <p>Standwell is a movement and habit tool. It does not diagnose, treat or cure any condition. Scores are estimates from a single camera angle. If you have pain, numbness, dizziness or a known spine or shoulder condition, speak to a clinician.</p>
+
+  <h2>Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time. The revised version will be published on this page with a new "Last updated" date. Material changes will also be reflected in the store listing.</p>
+
+  <h2>Contact Us</h2>
+  <p>If you have questions about this Privacy Policy or the Application, contact:</p>
+  <ul>
+    <li>Email: <a href="mailto:2661214319@qq.com">2661214319@qq.com</a></li>
+    <li>Developer: Vela Foundry</li>
+  </ul>
+
+  <footer>
+    Standwell · Desk posture, checked in 30 seconds.<br>
+    Public privacy policy for the Standwell Android app (package <code>com.velafoundry.standwell</code>).
+  </footer>
+</main>
+</body>
+</html>
